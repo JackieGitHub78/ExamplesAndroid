@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#0077B7</color>
+    <color name="colorFondoCartaMenu">#E6E6E6</color>
+    <color name="colorFuenteMenu">#002A67</color>
+    <color name="colorFuenteTipografia">#0077B7</color>
+    <color name="colorBarraProgreso">#4D4D4D</color>
+
+    <color name="colorBlanco">#ffffff</color>
+    <color name="wallet_primary_text_holo_light">#ffffff</color>
+</resources>

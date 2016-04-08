@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/TxtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/white"
+            android:text="Nombre"
+            android:gravity="center_horizontal"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/txtUsuairo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:textSize="10dp"
+            android:text="usuario"
+            android:layout_below="@+id/TxtNombre"
+
+            />
+        <TextView
+            android:id="@+id/Txtwitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@android:color/darker_gray"
+            android:text="twitter"
+            android:textSize="10dp"
+            android:layout_below="@+id/txtUsuairo"
+            />
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
